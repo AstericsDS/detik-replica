@@ -1,0 +1,79 @@
+.isi-berita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 24px;
+}
+
+.isi-berita p {
+    margin-bottom: 16px;
+}
+
+.baca-juga {
+    display: flex;
+    flex-direction: column;
+    border-left: 7px solid #2c5498;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.baca-juga p {
+    margin: 0;
+}
+
+.baca-juga-header {
+    margin-top: 4px;
+    margin-left: 17px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.baca-juga-content {
+    margin-top: 10px;
+    margin-left: 17px;
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.baca-juga-content a {
+    color: black;
+    transition: color 0.35s;
+}
+
+.baca-juga-content a:link {
+    text-decoration: none;
+}
+
+
+.baca-juga-content a:hover {
+    color: #2C5498;
+}
+
+.nav-tag {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+.nav-tag a {
+    transition: color 0.35s;
+}
+
+.nav-tag a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-tag a:hover {
+    color: #2C5498;
+}
+
+.nav-tag a {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px;
+}

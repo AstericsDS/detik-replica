@@ -1,0 +1,44 @@
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+    width: 50%;
+}
+
+.main-header {
+    font-weight: 600;
+    font-size: 32px;
+    color: #007CBD;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.main-header-2 {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 12px;
+}
+
+.main-header-2 span {
+    color: #3ea6dd;
+}
+
+.main-header-3 {
+    color: #999999;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.image-jokowi p {
+    font-size: 12px;
+    margin-top: 8px;
+}
